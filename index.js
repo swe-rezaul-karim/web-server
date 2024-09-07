@@ -18,6 +18,6 @@ app.get("/degree/:id", (req, res) => {
   const findDegree = degree.find((_, _id) => _id === parseInt(id));
   res.json(findDegree);
 })
-app.listen(8080, () => {
+app.listen(80, () => {
   console.log("Server running...");
 });
