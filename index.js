@@ -1,5 +1,5 @@
 import express from "express";
-import { degree } from "./degree";
+import { degree } from "./degree.js";
 
 const app = express();
 
