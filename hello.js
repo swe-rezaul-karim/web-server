@@ -1,1 +1,3 @@
-console.log("Hello World");
+function hello(name) {
+    return `Hello ${name}! Welcome to our dynamic application.`;    
+}
