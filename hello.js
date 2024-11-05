@@ -4,3 +4,5 @@ function hello(name) {
 
 let result = hello("Rezaul Karim")
 console.log(result);
+
+console.log('Updated!');
